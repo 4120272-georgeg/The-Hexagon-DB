@@ -120,10 +120,35 @@ INSERT INTO performance_spec (model_id, engine_capacity, cylinders, power, torqu
 (21, 1998, 4, 201, 360, 1340, 150);
 
 INSERT INTO part (part_name, category, brand, price) VALUES
+('BBS Forged Wheel Set', 'Wheels & Tyres', 'BBS', 8000),
+('König Lightweight Wheel Set', 'Wheels & Tyres', 'König', 5500),
+('KW Coilover Kit', 'Suspension', 'KW', 4500),
+('Eibach Lowering Springs', 'Suspension', 'Eibach', 1500),
+('Garrett Turbo Upgrade Kit', 'Engine', 'Garrett', 12000),
+('NOS Nitrous Oxide Kit', 'Engine', 'NOS', 6000),
+('K&N Performance Air Intake', 'Engine', 'K&N', 800),
+('Scorpion Off-Road Tyres', 'Wheels & Tyres', 'Pirelli', 2800),
+('Bilstein Off-Road Lift Suspension', 'Suspension', 'Bilstein', 5200),
+('APR Carbon Rear Wing', 'Aero', 'APR', 3500),
+('Akrapovič Titanium Exhaust', 'Exhaust', 'Akrapovič', 5000),
+('Recaro Sport Seats', 'Weight', 'Recaro', 3000),
 ('AMG SPEEDSHIFT Transmission', 'Transmission', 'AMG', 15000),
 ('AMG Sports Suspension', 'Suspension', 'AMG', 12000),
 ('AMG High-Performance Brakes', 'Brakes', 'AMG', 10000),
-('AMG Sports Exhaust System', 'Exhaust', 'AMG', 7000);
+('AMG Sports Exhaust System', 'Exhaust', 'AMG', 7000),
+('Brembo Performance Brake Kit', 'Brakes', 'Brembo', 12000),
+('Carbon-Ceramic Brakes', 'Brakes', 'Brembo', 60000),
+('Bilstein DampTronic Suspension', 'Suspension', 'Bilstein', 14000),
+('Bilstein Adjustable Shocks', 'Suspension', 'Bilstein', 9000),
+('StopTech Slotted Brake Rotors', 'Brakes', 'StopTech', 7500),
+('Pirelli P Zero Corsa Tyres', 'Wheels & Tyres', 'Pirelli', 4000),
+('Sidewinder II Track Wheels', 'Wheels & Tyres', 'SRT', 9500),
+('Sabelt Lightweight Seats', 'Weight', 'Sabelt', 6500),
+('Michelin Pilot Sport 2 Tyres', 'Wheels & Tyres', 'Michelin', 4500),
+('RAYS Forged Alloy Wheels', 'Wheels & Tyres', 'RAYS', 11000),
+('Cup Chassis Pack', 'Suspension', 'Renault Sport', 6000),
+('Limited-Slip Differential', 'Drivetrain', 'GKN', 8500),
+('M Compound Brake System', 'Brakes', 'BMW M', 11000);
 
 INSERT INTO model_part (model_id, part_id, rating_modifier) VALUES
 (10, 3, +6),
@@ -161,6 +186,3 @@ INSERT INTO model_part (model_id, part_id, rating_modifier) VALUES
 (19, 4, -2),
 (20, 2, +2),
 (21, 3, +3);
-
-
-
